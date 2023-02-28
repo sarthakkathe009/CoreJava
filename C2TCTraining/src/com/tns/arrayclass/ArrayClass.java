@@ -38,9 +38,9 @@ public class ArrayClass {
 		int intA2[]=Arrays.copyOfRange(intA,1,5);
 		System.out.println("Copy of IntA(1): "+Arrays.toString(intA2));
 		
-		/*one of the Sorting Technique
-		 * Arrays.parallelSort(intA,1,2); System.out.println(Arrays.toString(intA));
-		 */
+		//one of the Sorting Technique
+		 // Arrays.parallelSort(intA); System.out.println(Arrays.toString(intA));
+		 
 		int c=100;
 		Arrays.fill(intA2,c);
 		System.out.println("After Filling Element: "+Arrays.toString(intA2));
