@@ -17,7 +17,7 @@ public class ArrayClass {
 		System.out.println(intKey + " Found at Index = " + Arrays.binarySearch(intA, intKey));
 
 		System.out.println(intKey + " Found at Index = " + Arrays.binarySearch(intA, 1, 3, intKey));
-		//Why it Returns -2?
+		//Why it Returns -2?//ans:if its not found negative sign occurs
 		
 		System.out.println("First Array: "+Arrays.toString(intA));
 		
