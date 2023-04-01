@@ -4,7 +4,7 @@ import java.util.Arrays;
 public class ArrayClass {
 
 	public static void main(String[] args) {
-		int intA[]= {10,40,30,9};//Get Array
+		int[] intA= {10,40,30,9};//Get Array
 		System.out.println(Arrays.toString(intA));//To print Array in one line
 		Arrays.sort(intA);
 		System.out.println("After Storting->"+Arrays.toString(intA));
