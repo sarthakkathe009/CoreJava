@@ -6,4 +6,5 @@
  *
  */
 module C2TCTraining {
+	requires java.sql;
 }

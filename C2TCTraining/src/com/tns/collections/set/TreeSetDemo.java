@@ -1,6 +1,6 @@
 package com.tns.collections.set;
 
-import java.util.Iterator;
+
 import java.util.TreeSet;
 
 public class TreeSetDemo {
